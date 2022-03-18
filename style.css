@@ -1,0 +1,36 @@
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: #faebd7;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 507px;
+    width: 350px;
+    border-radius: 1.5rem ;
+    margin: auto;
+} 
+.card{
+    height: 100vh;
+    width: 44vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.NFT{
+    align-self: center;
+}
+#nftimage{
+    width: 300px;
+    border-radius: 1.5rem ;
+}
+
+
+
