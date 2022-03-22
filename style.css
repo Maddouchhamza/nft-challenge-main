@@ -20,11 +20,24 @@ section{
 .NFT{
     width: fit-content;
     margin: auto;
+    position: relative;
 }
 
 #nftimage{
     width: 310px;
-    border-radius: 0.5rem ;
+    border-radius: 0.5rem;
+}
+#hover{
+    z-index: -10;
+    position: absolute;
+    top: 43%;
+    right: 42%;
+}
+#nftimage:hover ~ img{
+    z-index: 100;
+}
+#nftimage:hover{
+    filter: invert(25%) sepia(100%) saturate(550%) hue-rotate(140deg) brightness(90%) contrast(100%);
 }
 
 .NFT-name{
@@ -32,6 +45,10 @@ section{
     padding-left: 1.6rem;
     font-size: 20px;
     font-weight: 600;
+}
+.NFT-name:hover{
+    color: aqua;
+    width: fit-content;
 }
 
 .NFT-description{
@@ -100,4 +117,8 @@ section{
 }
 span{
     color:#faebd7;
+}
+span:hover{
+    color: aqua;
+    width: fit-content;
 }
