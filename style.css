@@ -3,6 +3,10 @@ body{
     background-color: hsl(217, 54%, 11%);
     color: #faebd7;
     font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
 }
 
 section{
@@ -10,8 +14,6 @@ section{
     height: 580px;
     width: 360px;
     border-radius: 1rem ;
-    margin: auto;
-    margin-top: 100px;
     padding-top: 1.6rem;
     box-shadow: 1px 1px 20px 30px hsl(215, 72%, 8%);
 } 
